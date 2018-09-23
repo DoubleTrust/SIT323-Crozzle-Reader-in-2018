@@ -24,7 +24,7 @@ namespace CrozzleApplication
         }
         #endregion
 
-        #region type checking
+        #region type checking 
         // Check that a numeric field is an integer.  
         public static Boolean IsInt32(String field, out int anInteger)
         {
