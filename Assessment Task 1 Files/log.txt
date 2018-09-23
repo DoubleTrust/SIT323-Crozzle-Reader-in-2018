@@ -1,0 +1,198 @@
+START PROCESSING FILE: Test3.czl
+error 1: code 3001: row value (aaa) is not an integer
+error 2: code 3002: column value (bbb) is not an integer
+error 3: code 9002: word data (SEQUENCE=,LOCATION=3,2) is missing data in field SEQUENCE
+error 4: code 9005: word data (SEQUENCE=MARY,6,4) is missing symbol(s)
+error 5: code 9005: word data (LOCATION=6,11) is missing symbol(s)
+error 6: code 9006: coordinate (8) is incomplete in field LOCATION=8
+error 7: code 9004: word (?A?K?E) is not alphabetic
+error 8: code 3001: row value (1.5) is not an integer
+END PROCESSING FILE: Test3.czl
+
+START PROCESSING FILE: Test3.cfg
+error 1: code 2002: logfilename is missing.
+error 2: code 1004: key-value pair (BGCOLOUR-EMPTY-TD=777777), colour is not a Hex colour code
+error 3: code 1004: key-value pair (BGCOLOUR-NON-EMPTY-TD=#), colour is not a Hex colour code
+error 4: code 6002: invalid key in key-value pair (AAA=1)
+error 5: code 6004: missing value in key-value pair (B=)
+error 6: code 6005: missing = symbol in key-value pair (C,2)
+error 7: code 6006: invalid value in key-value pair (D=XXXX)
+error 8: code 1007: key (CROZZLE-SIZEMINIMUM-ROWS) is missing from the configuration file
+error 9: code 1007: key (CROZZLE-SIZEMAXIMUM-ROWS) is missing from the configuration file
+error 10: code 1007: key (CROZZLE-SIZEMINIMUM-COLUMNS) is missing from the configuration file
+error 11: code 1007: key (CROZZLE-SIZEMAXIMUM-COLUMNS) is missing from the configuration file
+error 12: code 1007: key (DUPLICATE-SEQUENCESMINIMUM) is missing from the configuration file
+error 13: code 1007: key (DUPLICATE-SEQUENCESMAXIMUM) is missing from the configuration file
+error 14: code 1008: key (A) is missing from the intersection points
+error 15: code 1008: key (B) is missing from the intersection points
+error 16: code 1008: key (C) is missing from the intersection points
+error 17: code 1008: key (D) is missing from the intersection points
+error 18: code 1010: the value of MINIMUM_NUMBER_OF_UNIQUE_WORDS is 10 which is greater than the counterpart maximum value of 1
+error 19: code 1010: the value of MINIMUM_HORIZONTAL_WORDS is 2 which is greater than the counterpart maximum value of 1
+error 20: code 1010: the value of MIIMUM_INTERSECTIONS_IN_VERTICAL_WORDS is 2 which is greater than the counterpart maximum value of 1
+error 21: code 1010: the value of MINIMUM_NUMBER_OF_GROUPS is 2 which is greater than the counterpart maximum value of 1
+END PROCESSING FILE: Test3.cfg
+
+START PROCESSING FILE: Test3.seq
+error 1: code 10013: sequence (AL,10,2,141,153) is duplicated
+error 2: code 10001: non-alphabetic value (ANGELA*) in field (ANGELA*,10,7,424,441) of the wordlist
+error 3: code 10005: the ASCII value of word "(ANGELA*)" does not match the pre-defined ASCII value 424
+error 4: code 10002: missing word in field (,10,0,0,10) of the wordlist
+error 5: code 10001: non-alphabetic value (***) in field (***,10,3,126,139) of the wordlist
+error 6: code 10001: non-alphabetic value (SIT323) in field (SIT323,10,6,392,408) of the wordlist
+error 7: code 10012: word (GEORGE) is invalid in field (GEORGE,10,0,441,457) of the wordlist
+error 8: code 10005: the ASCII value of word "(GRAHAM)" does not match the pre-defined ASCII value 444
+error 9: code 10006: the Hash value in field "(GRAHAM,10,6,444,448)" does not match the pre-defined Hash value 448
+error 10: code 10006: the Hash value in field "(JILL,5,4,299,313)" does not match the pre-defined Hash value 313
+error 11: code 10006: the Hash value in field "(JOHNATHON,15,9,681,700)" does not match the pre-defined Hash value 700
+error 12: code 10008: the total length (140) of all wordlist does not match the pre-defined total length 146 
+error 13: code 10011: the total ASCII (10972) of all wordlist does not match the pre-defined total ASCII 10960
+error 14: code 10004: the wordlist size (26) is more than the expected maximum (1)
+END PROCESSING FILE: Test3.seq
+
+START PROCESSING FILE: Test1.czl
+END PROCESSING FILE: Test1.czl
+
+START PROCESSING FILE: Test1.cfg
+END PROCESSING FILE: Test1.cfg
+
+START PROCESSING FILE: Test1.seq
+END PROCESSING FILE: Test1.seq
+
+START PROCESSING CROZZLE:
+END PROCESSING CROZZLE:
+
+START PROCESSING FILE: Test2.czl
+END PROCESSING FILE: Test2.czl
+
+START PROCESSING FILE: Test2.cfg
+END PROCESSING FILE: Test2.cfg
+
+START PROCESSING FILE: Test2.seq
+END PROCESSING FILE: Test2.seq
+
+START PROCESSING CROZZLE:
+error 1: code 11008: the number of vertical words is 9 but this is not within [1, 5]
+error 2: code 11002: the number of horizontal words intersecting WENDY is 1, but this is not within [2, 500]
+error 3: code 11003: the number of times AL occurs is 2, but this is not within [0, 1]
+error 4: code 11003: the number of times ROSE occurs is 3, but this is not within [0, 1]
+error 5: code 11003: the number of times RON occurs is 2, but this is not within [0, 1]
+error 6: code 11005: the number of groups of connected words is 4, but this is not within [1, 2]
+END PROCESSING CROZZLE:
+
+START PROCESSING FILE: Test3.czl
+error 1: code 3001: row value (aaa) is not an integer
+error 2: code 3002: column value (bbb) is not an integer
+error 3: code 9002: word data (SEQUENCE=,LOCATION=3,2) is missing data in field SEQUENCE
+error 4: code 9005: word data (SEQUENCE=MARY,6,4) is missing symbol(s)
+error 5: code 9005: word data (LOCATION=6,11) is missing symbol(s)
+error 6: code 9006: coordinate (8) is incomplete in field LOCATION=8
+error 7: code 9004: word (?A?K?E) is not alphabetic
+error 8: code 3001: row value (1.5) is not an integer
+END PROCESSING FILE: Test3.czl
+
+START PROCESSING FILE: Test3.cfg
+error 1: code 2002: logfilename is missing.
+error 2: code 1004: key-value pair (BGCOLOUR-EMPTY-TD=777777), colour is not a Hex colour code
+error 3: code 1004: key-value pair (BGCOLOUR-NON-EMPTY-TD=#), colour is not a Hex colour code
+error 4: code 6002: invalid key in key-value pair (AAA=1)
+error 5: code 6004: missing value in key-value pair (B=)
+error 6: code 6005: missing = symbol in key-value pair (C,2)
+error 7: code 6006: invalid value in key-value pair (D=XXXX)
+error 8: code 1007: key (CROZZLE-SIZEMINIMUM-ROWS) is missing from the configuration file
+error 9: code 1007: key (CROZZLE-SIZEMAXIMUM-ROWS) is missing from the configuration file
+error 10: code 1007: key (CROZZLE-SIZEMINIMUM-COLUMNS) is missing from the configuration file
+error 11: code 1007: key (CROZZLE-SIZEMAXIMUM-COLUMNS) is missing from the configuration file
+error 12: code 1007: key (DUPLICATE-SEQUENCESMINIMUM) is missing from the configuration file
+error 13: code 1007: key (DUPLICATE-SEQUENCESMAXIMUM) is missing from the configuration file
+error 14: code 1008: key (A) is missing from the intersection points
+error 15: code 1008: key (B) is missing from the intersection points
+error 16: code 1008: key (C) is missing from the intersection points
+error 17: code 1008: key (D) is missing from the intersection points
+error 18: code 1010: the value of MINIMUM_NUMBER_OF_UNIQUE_WORDS is 10 which is greater than the counterpart maximum value of 1
+error 19: code 1010: the value of MINIMUM_HORIZONTAL_WORDS is 2 which is greater than the counterpart maximum value of 1
+error 20: code 1010: the value of MIIMUM_INTERSECTIONS_IN_VERTICAL_WORDS is 2 which is greater than the counterpart maximum value of 1
+error 21: code 1010: the value of MINIMUM_NUMBER_OF_GROUPS is 2 which is greater than the counterpart maximum value of 1
+END PROCESSING FILE: Test3.cfg
+
+START PROCESSING FILE: Test3.seq
+error 1: code 10013: sequence (AL,10,2,141,153) is duplicated
+error 2: code 10001: non-alphabetic value (ANGELA*) in field (ANGELA*,10,7,424,441) of the wordlist
+error 3: code 10005: the ASCII value of word "(ANGELA*)" does not match the pre-defined ASCII value 424
+error 4: code 10002: missing word in field (,10,0,0,10) of the wordlist
+error 5: code 10001: non-alphabetic value (***) in field (***,10,3,126,139) of the wordlist
+error 6: code 10001: non-alphabetic value (SIT323) in field (SIT323,10,6,392,408) of the wordlist
+error 7: code 10012: word (GEORGE) is invalid in field (GEORGE,10,0,441,457) of the wordlist
+error 8: code 10005: the ASCII value of word "(GRAHAM)" does not match the pre-defined ASCII value 444
+error 9: code 10006: the Hash value in field "(GRAHAM,10,6,444,448)" does not match the pre-defined Hash value 448
+error 10: code 10006: the Hash value in field "(JILL,5,4,299,313)" does not match the pre-defined Hash value 313
+error 11: code 10006: the Hash value in field "(JOHNATHON,15,9,681,700)" does not match the pre-defined Hash value 700
+error 12: code 10008: the total length (140) of all wordlist does not match the pre-defined total length 146 
+error 13: code 10011: the total ASCII (10972) of all wordlist does not match the pre-defined total ASCII 10960
+error 14: code 10004: the wordlist size (26) is more than the expected maximum (1)
+END PROCESSING FILE: Test3.seq
+
+START PROCESSING FILE: Test1.czl
+END PROCESSING FILE: Test1.czl
+
+START PROCESSING FILE: Test1.cfg
+END PROCESSING FILE: Test1.cfg
+
+START PROCESSING FILE: Test1.seq
+END PROCESSING FILE: Test1.seq
+
+START PROCESSING CROZZLE:
+END PROCESSING CROZZLE:
+
+START PROCESSING FILE: Test3.czl
+error 1: code 3001: row value (aaa) is not an integer
+error 2: code 3002: column value (bbb) is not an integer
+error 3: code 9002: word data (SEQUENCE=,LOCATION=3,2) is missing data in field SEQUENCE
+error 4: code 9005: word data (SEQUENCE=MARY,6,4) is missing symbol(s)
+error 5: code 9005: word data (LOCATION=6,11) is missing symbol(s)
+error 6: code 9006: coordinate (8) is incomplete in field LOCATION=8
+error 7: code 9004: word (?A?K?E) is not alphabetic
+error 8: code 3001: row value (1.5) is not an integer
+END PROCESSING FILE: Test3.czl
+
+START PROCESSING FILE: Test3.cfg
+error 1: code 2002: logfilename is missing.
+error 2: code 1004: key-value pair (BGCOLOUR-EMPTY-TD=777777), colour is not a Hex colour code
+error 3: code 1004: key-value pair (BGCOLOUR-NON-EMPTY-TD=#), colour is not a Hex colour code
+error 4: code 6002: invalid key in key-value pair (AAA=1)
+error 5: code 6004: missing value in key-value pair (B=)
+error 6: code 6005: missing = symbol in key-value pair (C,2)
+error 7: code 6006: invalid value in key-value pair (D=XXXX)
+error 8: code 1007: key (CROZZLE-SIZEMINIMUM-ROWS) is missing from the configuration file
+error 9: code 1007: key (CROZZLE-SIZEMAXIMUM-ROWS) is missing from the configuration file
+error 10: code 1007: key (CROZZLE-SIZEMINIMUM-COLUMNS) is missing from the configuration file
+error 11: code 1007: key (CROZZLE-SIZEMAXIMUM-COLUMNS) is missing from the configuration file
+error 12: code 1007: key (DUPLICATE-SEQUENCESMINIMUM) is missing from the configuration file
+error 13: code 1007: key (DUPLICATE-SEQUENCESMAXIMUM) is missing from the configuration file
+error 14: code 1008: key (A) is missing from the intersection points
+error 15: code 1008: key (B) is missing from the intersection points
+error 16: code 1008: key (C) is missing from the intersection points
+error 17: code 1008: key (D) is missing from the intersection points
+error 18: code 1010: the value of MINIMUM_NUMBER_OF_UNIQUE_WORDS is 10 which is greater than the counterpart maximum value of 1
+error 19: code 1010: the value of MINIMUM_HORIZONTAL_WORDS is 2 which is greater than the counterpart maximum value of 1
+error 20: code 1010: the value of MIIMUM_INTERSECTIONS_IN_VERTICAL_WORDS is 2 which is greater than the counterpart maximum value of 1
+error 21: code 1010: the value of MINIMUM_NUMBER_OF_GROUPS is 2 which is greater than the counterpart maximum value of 1
+END PROCESSING FILE: Test3.cfg
+
+START PROCESSING FILE: Test3.seq
+error 1: code 10013: sequence (AL,10,2,141,153) is duplicated
+error 2: code 10001: non-alphabetic value (ANGELA*) in field (ANGELA*,10,7,424,441) of the wordlist
+error 3: code 10005: the ASCII value of word "(ANGELA*)" does not match the pre-defined ASCII value 424
+error 4: code 10002: missing word in field (,10,0,0,10) of the wordlist
+error 5: code 10001: non-alphabetic value (***) in field (***,10,3,126,139) of the wordlist
+error 6: code 10001: non-alphabetic value (SIT323) in field (SIT323,10,6,392,408) of the wordlist
+error 7: code 10012: word (GEORGE) is invalid in field (GEORGE,10,0,441,457) of the wordlist
+error 8: code 10005: the ASCII value of word "(GRAHAM)" does not match the pre-defined ASCII value 444
+error 9: code 10006: the Hash value in field "(GRAHAM,10,6,444,448)" does not match the pre-defined Hash value 448
+error 10: code 10006: the Hash value in field "(JILL,5,4,299,313)" does not match the pre-defined Hash value 313
+error 11: code 10006: the Hash value in field "(JOHNATHON,15,9,681,700)" does not match the pre-defined Hash value 700
+error 12: code 10008: the total length (140) of all wordlist does not match the pre-defined total length 146 
+error 13: code 10011: the total ASCII (10972) of all wordlist does not match the pre-defined total ASCII 10960
+error 14: code 10004: the wordlist size (26) is more than the expected maximum (1)
+END PROCESSING FILE: Test3.seq
+

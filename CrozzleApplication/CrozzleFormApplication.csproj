@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D99B5107-B237-4DCE-B859-67F52FD8E552}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CrozzleApplication</RootNamespace>
+    <AssemblyName>CrozzleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CrozzleApplication.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibrary1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Properties\ClassLibrary1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrozzleKeys.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrozzleKeys.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CzlGroup.cs" />
+    <Compile Include="CfgGroup.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="ConfigurationFileItem.cs" />
+    <Compile Include="ConfigurationFileItemErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfigurationFileItemErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigurationKeys.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfigurationKeys.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Coordinate.cs" />
+    <Compile Include="CoordinateErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoordinateErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Crozzle.cs" />
+    <Compile Include="CrozzleErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrozzleErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CrozzleFileErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrozzleFileErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CrozzleFileItem.cs" />
+    <Compile Include="CrozzleFileItemErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrozzleFileItemErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CrozzleMap.cs" />
+    <Compile Include="CrozzleSequences.cs" />
+    <Compile Include="CrozzleViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrozzleViewer.Designer.cs">
+      <DependentUpon>CrozzleViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorsViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorsViewer.Designer.cs">
+      <DependentUpon>ErrorsViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyValue.cs" />
+    <Compile Include="KeyValueErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KeyValueErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Orientation.cs" />
+    <Compile Include="ConfigurationErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfigurationErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="OrientationErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrientationErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TitleSequence.cs" />
+    <Compile Include="Validator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidatorErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ValidatorErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WordData.cs" />
+    <Compile Include="WordDataErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WordDataErrors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WordDataList.cs" />
+    <Compile Include="WordList.cs" />
+    <Compile Include="WordListErrors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WordListErrors.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationFileItemErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConfigurationFileItemErrors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationKeys.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConfigurationKeys.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoordinateErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CoordinateErrors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrozzleErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CrozzleErrors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrozzleFileErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CrozzleFileErrors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrozzleFileItemErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CrozzleFileItemErrors.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrozzleKeys.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CrozzleKeys.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrozzleViewer.resx">
+      <DependentUpon>CrozzleViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorsViewer.resx">
+      <DependentUpon>ErrorsViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyValueErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KeyValueErrors.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrientationErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OrientationErrors.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ConfigurationErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConfigurationErrors.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidatorErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ValidatorErrors.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordDataErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WordDataErrors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordListErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WordListErrors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
