@@ -1,3 +1,2 @@
 # SIT323-Crozzle-Reader-in-2018
-SIT323 assignment1 Crozzle reader in 2018
-PLEASE FORK FIRST BEFORE YOU REFERNCE OUR CODE
+If you want to refernece our code, please fork first. Thank you.
